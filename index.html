@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animals</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<script type="text/javascript">
+		  $(document).ready(function(){
+		  	setTimeout(function(){
+		  		$('.imagenes span:nth-child(1)').show('slow');
+		  	},0);
+
+		  	setTimeout(function(){
+		  		$('.imagenes span:nth-child(1)').hide('slow');
+		  		$('.imagenes span:nth-child(2)').show('slow');
+		  	},4000);	  	
+
+		  	setTimeout(function(){
+		  		$('.imagenes span:nth-child(2)').hide('slow');
+		  		$('.imagenes span:nth-child(3)').show('slow');
+		  	},8000);	  		  		  			  			  			  	
+		  	setTimeout(function(){
+		  		$('.imagenes span:nth-child(3)').hide('slow');
+		  		$('.imagenes span:nth-child(4)').show('slow');
+		  	},12000);
+
+		  	setTimeout(function(){
+		  		$('.imagenes span:nth-child(4)').hide('slow');
+		  		$('.imagenes span:nth-child(5)').show('slow');
+		  	},16000); 	
+
+		  	setTimeout(function(){
+		  		$('.imagenes span:nth-child(5)').hide('slow');
+		  		$('.imagenes span:nth-child(6)').show('slow');
+		  	},20000);
+
+		  	setTimeout(function(){
+		  		$('.imagenes span:nth-child(6)').hide('slow');
+		  	},24000);	  		 		  		 		  	
+          });
+	</script>
+	<!-- i can change the background with this line $('body').css('background','red'); -->
+</head>
+
+<body>
+	<div class="container">
+		<section class="rw-wrapper">
+			<h2 class="rw-sentence">
+				<span>Animals Animation</span>
+				<div class="rw-words rw-words-1">
+					<span>css</span>
+					<span>Jquery</span>
+					<span>Savage</span>
+					<span>html</span>
+					<span>JS</span>
+					<span>Animals</span>
+				</div>
+				<div class="rw-words rw-words-2">
+					<span>black cat<br>green eyes</span>
+					<span>beautiful pitbull<br> black and white</span>
+					<span>elefante modelo<br> AFRICA<br> white and black</span>
+					<span>KATY</span>
+					<span>wild animals<br> leopardo<br> white and black</span>
+					<span>ojos azules</span>
+				</div>
+			</h2>
+		</section>
+	</div> 
+    <!--// container-->
+
+    <div class="imagenes">
+    	<span><img src="images/bcat.jpg"></span>
+    	<span><img src="images/bnw-dog.jpg"></span>>
+    	<span><img src="images/wild-animals2.jpg"></span>
+    	<span><img src="images/katy.jpg"></span>
+    	<span><img src="images/wild-animals1.jpg"></span>
+    	<span><img src="images/color-cat.jpg"></span>
+    </div>
+    <!--// imagenes-->
+
+
+</body>
+</html>
